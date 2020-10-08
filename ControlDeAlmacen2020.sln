@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlDeAlmacen2020", "ControlDeAlmacen2020\ControlDeAlmacen2020.csproj", "{1BACADAD-6642-4ED6-9B3F-BD0CB785F3DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{473AC0FF-4EDE-43A0-9C45-0032DD532842}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1BACADAD-6642-4ED6-9B3F-BD0CB785F3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BACADAD-6642-4ED6-9B3F-BD0CB785F3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BACADAD-6642-4ED6-9B3F-BD0CB785F3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473AC0FF-4EDE-43A0-9C45-0032DD532842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473AC0FF-4EDE-43A0-9C45-0032DD532842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473AC0FF-4EDE-43A0-9C45-0032DD532842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473AC0FF-4EDE-43A0-9C45-0032DD532842}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

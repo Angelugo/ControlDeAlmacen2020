@@ -38,7 +38,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.panelMediaSubMenu = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnAdministradores = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panelChildForm = new System.Windows.Forms.Panel();
@@ -179,7 +179,7 @@
             // 
             this.panelMediaSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
             this.panelMediaSubMenu.Controls.Add(this.button3);
-            this.panelMediaSubMenu.Controls.Add(this.button2);
+            this.panelMediaSubMenu.Controls.Add(this.btnAdministradores);
             this.panelMediaSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMediaSubMenu.Location = new System.Drawing.Point(0, 137);
             this.panelMediaSubMenu.Name = "panelMediaSubMenu";
@@ -204,23 +204,23 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // btnAdministradores
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(38)))), ((int)(((byte)(46)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(38)))), ((int)(((byte)(46)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.Silver;
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(229, 40);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Administradores";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnAdministradores.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAdministradores.FlatAppearance.BorderSize = 0;
+            this.btnAdministradores.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(38)))), ((int)(((byte)(46)))));
+            this.btnAdministradores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(38)))), ((int)(((byte)(46)))));
+            this.btnAdministradores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdministradores.ForeColor = System.Drawing.Color.Silver;
+            this.btnAdministradores.Location = new System.Drawing.Point(0, 0);
+            this.btnAdministradores.Name = "btnAdministradores";
+            this.btnAdministradores.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnAdministradores.Size = new System.Drawing.Size(229, 40);
+            this.btnAdministradores.TabIndex = 0;
+            this.btnAdministradores.Text = "Administradores";
+            this.btnAdministradores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdministradores.UseVisualStyleBackColor = true;
+            this.btnAdministradores.Click += new System.EventHandler(this.button2_Click);
             // 
             // panelLogo
             // 
@@ -244,7 +244,7 @@
             // 
             // panelChildForm
             // 
-            this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.panelChildForm.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelChildForm.Controls.Add(this.label2);
             this.panelChildForm.Controls.Add(this.pictureBox9);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -257,7 +257,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Silver;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(140, 321);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(609, 38);
@@ -459,7 +459,7 @@
         private System.Windows.Forms.Panel panelSideMenu;
         private System.Windows.Forms.Panel panelMediaSubMenu;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnAdministradores;
         private System.Windows.Forms.Button btnMedia;
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Panel panelToolsSubMenu;
