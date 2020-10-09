@@ -16,6 +16,8 @@ namespace PlayerUI
         public Form1()
         {
             InitializeComponent();
+            //BackColor = Color.FromArgb(235, 245, 251);
+            BackColor = Color.FromArgb(235, 245, 251);
             hideSubMenu();
         }
 

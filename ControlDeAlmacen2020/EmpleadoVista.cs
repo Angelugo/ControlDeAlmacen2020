@@ -15,6 +15,7 @@ namespace ControlDeAlmacen2020
         public EmpleadoVista()
         {
             InitializeComponent();
+            BackColor = Color.FromArgb(235, 245, 251);
         }
     }
 }
