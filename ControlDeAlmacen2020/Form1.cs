@@ -187,5 +187,20 @@ namespace PlayerUI
             childForm.BringToFront();
             childForm.Show();
         }
+
+        private void btnUsuarios_MouseHover(object sender, EventArgs e)
+        {
+           // btnUsuarios.BackColor = Color.FromArgb(165, 105, 189);
+        }
+
+        private void btnUsuarios_MouseEnter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnUsuarios_MouseLeave(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
