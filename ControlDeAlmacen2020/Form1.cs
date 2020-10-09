@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ControlDeAlmacen2020;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -44,19 +45,20 @@ namespace PlayerUI
         #region MediaSubMenu
         private void button2_Click(object sender, EventArgs e)
         {
-            //openChildForm(new Form2());
+            openChildForm(new AdministradorVista());
             //..
             //your codes
             //..
-            hideSubMenu();
+            //hideSubMenu();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            openChildForm(new EmpleadoVista());
             //..
             //your codes
             //..
-            hideSubMenu();
+            //hideSubMenu();
         }
 
         private void button4_Click(object sender, EventArgs e)
