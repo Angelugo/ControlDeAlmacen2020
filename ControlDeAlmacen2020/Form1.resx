@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnRequisicion.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAHASURBVFhHzdfPK2ZRHMfxhywY+bXQrGYnNkKyIskkyUYp
-        FlNWs7CxUJJEEv4EzW7CYoQmCxuKrZkVmQ1LGSUpLKZmQX68P+eknsXTc8+55/Zcn3rV91vnPt17zv1x
-        nsx7yQR+ZtnCLCpQkIxjI4tO4Aa/UIRU0oIXtJsuhejK/2PUdCnlD06RfX+E+I4OOGcTt9hLyBke0Qmn
-        LEAHJZViHOKH6RzyBQ8oMV0y0Uys2jI6rdCT0GC6ZHKOGVtGpxzPGDBdeErxhCHTOeYSU7YMTiM0o02m
-        c8w+VmwZnEFoRstM55hl/LZlcKbx15buGcOdLYOjmTywpXt6oHX7aLqw6OP2zZbu+QSdQJfpwqK3qr68
-        XtFH6R9CP0qaQV1In+k8cwTtEXRwHP3YxjU+wDvr0NnHpUfvGG2IlTlc2DKdDENXUWW6FFIL3YjaH2g9
-        c61zlGYEpRdahlxr7EKb3URSieoYYt392dH74Cv0RCyhBvniOz4yi9DuaAdXOEG+nZLv+MjcY9KWmTpo
-        XT+bLnd8x0dGP/i2MamHfrDbdLnjOz4y89CWehf626bXc74p9R3vlBGsQW9Gl5eS7/hCJ5N5BRiXm4Fw
-        3NOrAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAcBJREFUWEfN188rZlEcx/GHLBj5tdCsZic2QrIiySTJRikWU1azsLFQkkQS/gTN
+        bsJihCYLG4qtmRWZDUsZJSkspmZBfrw/56SexdNzz7nn9lyfetX3W+c+3XvO/XGezHvJBH5m2cIsKlCQ
+        jGMji07gBr9QhFTSghe0my6F6Mr/Y9R0KeUPTpF9f4T4jg44ZxO32EvIGR7RCacsQAcllWIc4ofpHPIF
+        DygxXTLRTKzaMjqt0JPQYLpkco4ZW0anHM8YMF14SvGEIdM55hJTtgxOIzSjTaZzzD5WbBmcQWhGy0zn
+        mGX8tmVwpvHXlu4Zw50tg6OZPLCle3qgdftourDo4/bNlu75BJ1Al+nCoreqvrxe0UfpH0I/SppBXUif
+        6TxzBO0RdHAc/djGNT7AO+vQ2celR+8YbYiVOVzYMp0MQ1dRZboUUgvdiNofaD1zrXOUZgSlF1qGXGvs
+        QpvdRFKJ6hhi3f3Z0fvgK/RELKEG+eI7PjKL0O5oB1c4Qb6dku/4yNxj0paZOmhdP5sud3zHR0Y/+LYx
+        qYd+sNt0ueM7PjLz0JZ6F/rbptdzvin1He+UEaxBb0aXl5Lv+EInk3kFGJebgXDc06sAAAAASUVORK5C
+        YII=
 </value>
   </data>
   <data name="btnRespaldo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

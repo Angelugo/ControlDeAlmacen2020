@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace ControlDeAlmacen2020
 {
-    public partial class AdministradorVista : Form
+    public partial class Proveedor : Form
     {
-        public AdministradorVista()
+        public Proveedor()
         {
             InitializeComponent();
-            BackColor = Color.FromArgb(235, 245, 251);
         }
     }
 }

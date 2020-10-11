@@ -47,7 +47,7 @@ namespace PlayerUI
         #region MediaSubMenu
         private void button2_Click(object sender, EventArgs e)
         {
-            openChildForm(new AdministradorVista());
+            openChildForm(new Administrador());
             //..
             //your codes
             //..
@@ -56,7 +56,7 @@ namespace PlayerUI
 
         private void button3_Click(object sender, EventArgs e)
         {
-            openChildForm(new EmpleadoVista());
+            openChildForm(new Empleado());
             //..
             //your codes
             //..
@@ -168,6 +168,7 @@ namespace PlayerUI
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
+            openChildForm(new Proveedor());
             //..
             //your codes
             //..

@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdministradorVista.cs">
+    <Compile Include="Administrador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdministradorVista.Designer.cs">
-      <DependentUpon>AdministradorVista.cs</DependentUpon>
+    <Compile Include="Administrador.Designer.cs">
+      <DependentUpon>Administrador.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmpleadoVista.cs">
+    <Compile Include="Empleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmpleadoVista.Designer.cs">
-      <DependentUpon>EmpleadoVista.cs</DependentUpon>
+    <Compile Include="Empleado.Designer.cs">
+      <DependentUpon>Empleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Entidades\Administrador.cs" />
     <Compile Include="Entidades\Area.cs" />
@@ -74,11 +74,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AdministradorVista.resx">
-      <DependentUpon>AdministradorVista.cs</DependentUpon>
+    <Compile Include="Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor.Designer.cs">
+      <DependentUpon>Proveedor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Administrador.resx">
+      <DependentUpon>Administrador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmpleadoVista.resx">
-      <DependentUpon>EmpleadoVista.cs</DependentUpon>
+    <EmbeddedResource Include="Empleado.resx">
+      <DependentUpon>Empleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -87,6 +93,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedor.resx">
+      <DependentUpon>Proveedor.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

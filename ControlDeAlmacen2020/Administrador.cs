@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ControlDeAlmacen2020
 {
-    public partial class EmpleadoVista : Form
+    public partial class Administrador : Form
     {
-        public EmpleadoVista()
+        public Administrador()
         {
             InitializeComponent();
             BackColor = Color.FromArgb(235, 245, 251);
