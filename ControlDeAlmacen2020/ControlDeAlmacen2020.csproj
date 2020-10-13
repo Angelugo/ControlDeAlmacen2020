@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administrador.cs">
+    <Compile Include="Administradores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador.Designer.cs">
-      <DependentUpon>Administrador.cs</DependentUpon>
+    <Compile Include="Administradores.Designer.cs">
+      <DependentUpon>Administradores.cs</DependentUpon>
     </Compile>
     <Compile Include="Empleado.cs">
       <SubType>Form</SubType>
@@ -58,14 +58,6 @@
     <Compile Include="Empleado.Designer.cs">
       <DependentUpon>Empleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entidades\Administrador.cs" />
-    <Compile Include="Entidades\Area.cs" />
-    <Compile Include="Entidades\BaseDTO.cs" />
-    <Compile Include="Entidades\Empleado.cs" />
-    <Compile Include="Entidades\Herramienta.cs" />
-    <Compile Include="Entidades\Material.cs" />
-    <Compile Include="Entidades\Prestamo.cs" />
-    <Compile Include="Entidades\Proveedor.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,8 +72,8 @@
     <Compile Include="Proveedor.Designer.cs">
       <DependentUpon>Proveedor.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Administrador.resx">
-      <DependentUpon>Administrador.cs</DependentUpon>
+    <EmbeddedResource Include="Administradores.resx">
+      <DependentUpon>Administradores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Empleado.resx">
       <DependentUpon>Empleado.cs</DependentUpon>
@@ -120,6 +112,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\iconos\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
+      <Project>{a492782b-3b33-4aaf-8af0-687d95dc28ae}</Project>
+      <Name>CapaLogica</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

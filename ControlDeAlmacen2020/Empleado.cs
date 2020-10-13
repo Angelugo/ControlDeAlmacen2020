@@ -15,7 +15,11 @@ namespace ControlDeAlmacen2020
         public Empleado()
         {
             InitializeComponent();
-            BackColor = Color.FromArgb(235, 245, 251);
+        }
+
+        private void Empleado_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

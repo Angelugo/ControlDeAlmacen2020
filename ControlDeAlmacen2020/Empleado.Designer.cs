@@ -60,7 +60,7 @@
             this.txtBuscarE.Multiline = true;
             this.txtBuscarE.Name = "txtBuscarE";
             this.txtBuscarE.Size = new System.Drawing.Size(172, 22);
-            this.txtBuscarE.TabIndex = 46;
+            this.txtBuscarE.TabIndex = 29;
             // 
             // label11
             // 
@@ -116,7 +116,7 @@
             this.btnGuardarCE.Location = new System.Drawing.Point(994, 431);
             this.btnGuardarCE.Name = "btnGuardarCE";
             this.btnGuardarCE.Size = new System.Drawing.Size(144, 23);
-            this.btnGuardarCE.TabIndex = 41;
+            this.btnGuardarCE.TabIndex = 39;
             this.btnGuardarCE.Text = "Guardar Cambios";
             this.btnGuardarCE.UseVisualStyleBackColor = true;
             // 
@@ -141,7 +141,7 @@
             this.txtNombreE.Location = new System.Drawing.Point(229, 127);
             this.txtNombreE.Name = "txtNombreE";
             this.txtNombreE.Size = new System.Drawing.Size(136, 22);
-            this.txtNombreE.TabIndex = 32;
+            this.txtNombreE.TabIndex = 31;
             // 
             // cbAreaE
             // 
@@ -157,7 +157,7 @@
             this.cbAreaE.Location = new System.Drawing.Point(60, 186);
             this.cbAreaE.Name = "cbAreaE";
             this.cbAreaE.Size = new System.Drawing.Size(136, 24);
-            this.cbAreaE.TabIndex = 36;
+            this.cbAreaE.TabIndex = 34;
             // 
             // label18
             // 
@@ -174,7 +174,7 @@
             this.txtApE.Location = new System.Drawing.Point(408, 127);
             this.txtApE.Name = "txtApE";
             this.txtApE.Size = new System.Drawing.Size(136, 22);
-            this.txtApE.TabIndex = 33;
+            this.txtApE.TabIndex = 32;
             // 
             // label17
             // 
@@ -201,7 +201,7 @@
             this.txtAmE.Location = new System.Drawing.Point(587, 127);
             this.txtAmE.Name = "txtAmE";
             this.txtAmE.Size = new System.Drawing.Size(136, 22);
-            this.txtAmE.TabIndex = 35;
+            this.txtAmE.TabIndex = 33;
             // 
             // label16
             // 
@@ -220,7 +220,7 @@
             this.btnActualizarE.Location = new System.Drawing.Point(1008, 378);
             this.btnActualizarE.Name = "btnActualizarE";
             this.btnActualizarE.Size = new System.Drawing.Size(69, 31);
-            this.btnActualizarE.TabIndex = 40;
+            this.btnActualizarE.TabIndex = 38;
             this.btnActualizarE.UseVisualStyleBackColor = true;
             // 
             // btnEliminarE
@@ -230,7 +230,7 @@
             this.btnEliminarE.Location = new System.Drawing.Point(1008, 341);
             this.btnEliminarE.Name = "btnEliminarE";
             this.btnEliminarE.Size = new System.Drawing.Size(69, 31);
-            this.btnEliminarE.TabIndex = 39;
+            this.btnEliminarE.TabIndex = 37;
             this.btnEliminarE.UseVisualStyleBackColor = true;
             // 
             // btnCancelarE
@@ -240,7 +240,7 @@
             this.btnCancelarE.Location = new System.Drawing.Point(1008, 304);
             this.btnCancelarE.Name = "btnCancelarE";
             this.btnCancelarE.Size = new System.Drawing.Size(69, 31);
-            this.btnCancelarE.TabIndex = 38;
+            this.btnCancelarE.TabIndex = 36;
             this.btnCancelarE.UseVisualStyleBackColor = true;
             // 
             // btnAgreagrE
@@ -250,14 +250,14 @@
             this.btnAgreagrE.Location = new System.Drawing.Point(1008, 267);
             this.btnAgreagrE.Name = "btnAgreagrE";
             this.btnAgreagrE.Size = new System.Drawing.Size(69, 31);
-            this.btnAgreagrE.TabIndex = 37;
+            this.btnAgreagrE.TabIndex = 35;
             this.btnAgreagrE.UseVisualStyleBackColor = true;
             // 
-            // EmpleadoVista
+            // Empleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(245)))), ((int)(((byte)(251)))));
             this.ClientSize = new System.Drawing.Size(1220, 519);
             this.Controls.Add(this.txtBuscarE);
             this.Controls.Add(this.label11);
@@ -279,8 +279,9 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.txtAmE);
             this.Controls.Add(this.label16);
-            this.Name = "EmpleadoVista";
+            this.Name = "Empleado";
             this.Text = "EmpleadoVista";
+            this.Load += new System.EventHandler(this.Empleado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

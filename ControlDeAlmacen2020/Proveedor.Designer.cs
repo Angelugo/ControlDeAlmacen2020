@@ -63,7 +63,7 @@
             this.txtBuscar.Location = new System.Drawing.Point(994, 28);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(172, 22);
-            this.txtBuscar.TabIndex = 36;
+            this.txtBuscar.TabIndex = 43;
             // 
             // label10
             // 
@@ -126,7 +126,7 @@
             this.btnGuardaC.Location = new System.Drawing.Point(994, 431);
             this.btnGuardaC.Name = "btnGuardaC";
             this.btnGuardaC.Size = new System.Drawing.Size(155, 23);
-            this.btnGuardaC.TabIndex = 54;
+            this.btnGuardaC.TabIndex = 55;
             this.btnGuardaC.Text = "Guardar Cambios";
             this.btnGuardaC.UseVisualStyleBackColor = true;
             // 
@@ -146,7 +146,7 @@
             this.txtCp.MaxLength = 5;
             this.txtCp.Name = "txtCp";
             this.txtCp.Size = new System.Drawing.Size(136, 22);
-            this.txtCp.TabIndex = 43;
+            this.txtCp.TabIndex = 46;
             // 
             // label5
             // 
@@ -173,14 +173,14 @@
             this.txtmail.Location = new System.Drawing.Point(228, 186);
             this.txtmail.Name = "txtmail";
             this.txtmail.Size = new System.Drawing.Size(136, 22);
-            this.txtmail.TabIndex = 42;
+            this.txtmail.TabIndex = 49;
             // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(229, 127);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(136, 22);
-            this.txtNombre.TabIndex = 34;
+            this.txtNombre.TabIndex = 45;
             // 
             // label6
             // 
@@ -199,7 +199,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(1008, 267);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(69, 31);
-            this.btnAgregar.TabIndex = 45;
+            this.btnAgregar.TabIndex = 51;
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // txtTel
@@ -208,7 +208,7 @@
             this.txtTel.MaxLength = 10;
             this.txtTel.Name = "txtTel";
             this.txtTel.Size = new System.Drawing.Size(136, 22);
-            this.txtTel.TabIndex = 41;
+            this.txtTel.TabIndex = 48;
             // 
             // btnCancelar
             // 
@@ -217,7 +217,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(1008, 304);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(69, 31);
-            this.btnCancelar.TabIndex = 46;
+            this.btnCancelar.TabIndex = 52;
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // label7
@@ -237,7 +237,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(1008, 341);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(69, 31);
-            this.btnEliminar.TabIndex = 47;
+            this.btnEliminar.TabIndex = 53;
             this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // txtRfc
@@ -245,7 +245,7 @@
             this.txtRfc.Location = new System.Drawing.Point(407, 186);
             this.txtRfc.Name = "txtRfc";
             this.txtRfc.Size = new System.Drawing.Size(136, 22);
-            this.txtRfc.TabIndex = 40;
+            this.txtRfc.TabIndex = 50;
             // 
             // btnActualizar
             // 
@@ -254,7 +254,7 @@
             this.btnActualizar.Location = new System.Drawing.Point(1008, 378);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(69, 31);
-            this.btnActualizar.TabIndex = 48;
+            this.btnActualizar.TabIndex = 54;
             this.btnActualizar.UseVisualStyleBackColor = true;
             // 
             // label4
@@ -272,7 +272,7 @@
             this.txtDomicilio.Location = new System.Drawing.Point(592, 127);
             this.txtDomicilio.Name = "txtDomicilio";
             this.txtDomicilio.Size = new System.Drawing.Size(253, 22);
-            this.txtDomicilio.TabIndex = 38;
+            this.txtDomicilio.TabIndex = 47;
             // 
             // label22
             // 
@@ -287,7 +287,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(245)))), ((int)(((byte)(251)))));
             this.ClientSize = new System.Drawing.Size(1220, 519);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.txtBuscar);

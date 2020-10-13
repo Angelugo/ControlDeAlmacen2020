@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\Capa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLogica", "CapaLogica\CapaLogica.csproj", "{A492782B-3B33-4AAF-8AF0-687D95DC28AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almacen.COMMON", "Almacen.COMMON\Almacen.COMMON.csproj", "{5ED8B4C6-D3EC-4976-A895-99DBC2F1A0DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A492782B-3B33-4AAF-8AF0-687D95DC28AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A492782B-3B33-4AAF-8AF0-687D95DC28AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A492782B-3B33-4AAF-8AF0-687D95DC28AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED8B4C6-D3EC-4976-A895-99DBC2F1A0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED8B4C6-D3EC-4976-A895-99DBC2F1A0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED8B4C6-D3EC-4976-A895-99DBC2F1A0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED8B4C6-D3EC-4976-A895-99DBC2F1A0DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

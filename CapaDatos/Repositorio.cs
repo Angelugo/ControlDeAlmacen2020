@@ -1,4 +1,4 @@
-﻿using ControlDeAlmacen2020.Entidades;
+﻿using Almacen.COMMON.Entidades;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;

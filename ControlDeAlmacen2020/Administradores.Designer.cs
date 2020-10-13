@@ -1,6 +1,6 @@
 ﻿namespace ControlDeAlmacen2020
 {
-    partial class Administrador
+    partial class Administradores
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Administrador));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Administradores));
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -66,7 +66,7 @@
             this.txtBuscar.Multiline = true;
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(172, 22);
-            this.txtBuscar.TabIndex = 28;
+            this.txtBuscar.TabIndex = 32;
             // 
             // textBox1
             // 
@@ -74,7 +74,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '*';
             this.textBox1.Size = new System.Drawing.Size(136, 22);
-            this.textBox1.TabIndex = 42;
+            this.textBox1.TabIndex = 40;
             // 
             // label2
             // 
@@ -142,7 +142,7 @@
             this.btnGuardaC.Location = new System.Drawing.Point(994, 431);
             this.btnGuardaC.Name = "btnGuardaC";
             this.btnGuardaC.Size = new System.Drawing.Size(144, 23);
-            this.btnGuardaC.TabIndex = 46;
+            this.btnGuardaC.TabIndex = 45;
             this.btnGuardaC.Text = "Guardar Cambios";
             this.btnGuardaC.UseVisualStyleBackColor = true;
             // 
@@ -167,7 +167,7 @@
             this.txtNombre.Location = new System.Drawing.Point(229, 127);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(136, 22);
-            this.txtNombre.TabIndex = 35;
+            this.txtNombre.TabIndex = 34;
             // 
             // label10
             // 
@@ -195,14 +195,14 @@
             this.txtContrasenia.Name = "txtContrasenia";
             this.txtContrasenia.PasswordChar = '*';
             this.txtContrasenia.Size = new System.Drawing.Size(136, 22);
-            this.txtContrasenia.TabIndex = 41;
+            this.txtContrasenia.TabIndex = 39;
             // 
             // txtAp
             // 
             this.txtAp.Location = new System.Drawing.Point(408, 127);
             this.txtAp.Name = "txtAp";
             this.txtAp.Size = new System.Drawing.Size(136, 22);
-            this.txtAp.TabIndex = 36;
+            this.txtAp.TabIndex = 35;
             // 
             // cbArea
             // 
@@ -218,7 +218,7 @@
             this.cbArea.Location = new System.Drawing.Point(60, 186);
             this.cbArea.Name = "cbArea";
             this.cbArea.Size = new System.Drawing.Size(136, 24);
-            this.cbArea.TabIndex = 39;
+            this.cbArea.TabIndex = 37;
             // 
             // label6
             // 
@@ -235,7 +235,7 @@
             this.txtAm.Location = new System.Drawing.Point(587, 127);
             this.txtAm.Name = "txtAm";
             this.txtAm.Size = new System.Drawing.Size(136, 22);
-            this.txtAm.TabIndex = 37;
+            this.txtAm.TabIndex = 36;
             // 
             // label7
             // 
@@ -274,7 +274,7 @@
             this.txtUsername.Location = new System.Drawing.Point(229, 188);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(136, 22);
-            this.txtUsername.TabIndex = 40;
+            this.txtUsername.TabIndex = 38;
             // 
             // btnActualizarA
             // 
@@ -283,7 +283,7 @@
             this.btnActualizarA.Location = new System.Drawing.Point(1008, 378);
             this.btnActualizarA.Name = "btnActualizarA";
             this.btnActualizarA.Size = new System.Drawing.Size(69, 31);
-            this.btnActualizarA.TabIndex = 48;
+            this.btnActualizarA.TabIndex = 44;
             this.btnActualizarA.UseVisualStyleBackColor = true;
             // 
             // btnEliminarA
@@ -293,7 +293,7 @@
             this.btnEliminarA.Location = new System.Drawing.Point(1008, 341);
             this.btnEliminarA.Name = "btnEliminarA";
             this.btnEliminarA.Size = new System.Drawing.Size(69, 31);
-            this.btnEliminarA.TabIndex = 47;
+            this.btnEliminarA.TabIndex = 43;
             this.btnEliminarA.UseVisualStyleBackColor = true;
             // 
             // btnCancelarA
@@ -303,7 +303,7 @@
             this.btnCancelarA.Location = new System.Drawing.Point(1008, 304);
             this.btnCancelarA.Name = "btnCancelarA";
             this.btnCancelarA.Size = new System.Drawing.Size(69, 31);
-            this.btnCancelarA.TabIndex = 45;
+            this.btnCancelarA.TabIndex = 42;
             this.btnCancelarA.UseVisualStyleBackColor = true;
             // 
             // btnAgregar
@@ -313,14 +313,14 @@
             this.btnAgregar.Location = new System.Drawing.Point(1008, 267);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(69, 31);
-            this.btnAgregar.TabIndex = 44;
+            this.btnAgregar.TabIndex = 41;
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
-            // AdministradorVista
+            // Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(245)))), ((int)(((byte)(251)))));
             this.ClientSize = new System.Drawing.Size(1220, 519);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.textBox1);
@@ -348,7 +348,7 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtUsername);
-            this.Name = "AdministradorVista";
+            this.Name = "Administrador";
             this.Text = "AdministradorVista";
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdmin)).EndInit();
             this.ResumeLayout(false);
